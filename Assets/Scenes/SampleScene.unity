@@ -217,19 +217,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Player 1
-  Wants: []
+  Wants:
+  - {fileID: 486817858}
   Look:
   - {fileID: 1142639571}
   - {fileID: 930044354}
   - {fileID: 1849588312}
-  Cost: 0
-  BankAccount: 0
+  Cost: 100
+  BankAccount: 400
   Trust: 0
-  Threat: 0
-  ConversationStart: 
-  ConversationSuccess: 
-  ConversationFailure: 
-  ConversationScam: 
+  Threat: 10
+  ConversationStart: Hallo, my name is NPC 1
+  ConversationSuccess: kthxbai
+  ConversationFailure: boooooo
+  ConversationScam: wtf?!
   Nationality: {fileID: 0}
 --- !u!1 &91178512
 GameObject:
@@ -277,6 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Want 2
   _similarWants: []
+  _similarWantPercents: 
 --- !u!1 &137203379
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +393,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Want 1
   _similarWants:
-  - {fileID: 0}
+  - {fileID: 91178514}
+  _similarWantPercents: 14000000
 --- !u!1 &516187196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,6 +1327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Want 3
   _similarWants: []
+  _similarWantPercents: 
 --- !u!1 &1142639569
 GameObject:
   m_ObjectHideFlags: 0
