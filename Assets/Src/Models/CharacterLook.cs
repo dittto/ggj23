@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterLook : MonoBehaviour
 {
-    enum Type { Hair, Beard, Face, Expression }
+    enum Type { Hair, HairBack, Face, Expression }
 
     [SerializeField]
     private Type _type;
