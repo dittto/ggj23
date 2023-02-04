@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   threshold:
     m_OverrideState: 1
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 2.81
+    m_Value: 0.4
   scatter:
     m_OverrideState: 0
-    m_Value: 0.7
+    m_Value: 0.68
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -35,12 +35,28 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 2800000, guid: a0f17af9ef0dbd249b377215b1938142, type: 3}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.56
+--- !u!114 &-1379386965748126367
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &-876005137579111883
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -53,13 +69,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.46
   contrast:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -14
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -67,8 +83,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   saturation:
-    m_OverrideState: 1
-    m_Value: 17
+    m_OverrideState: 0
+    m_Value: -100
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,6 +101,7 @@ MonoBehaviour:
   - {fileID: 8026928536112371263}
   - {fileID: -876005137579111883}
   - {fileID: -5555695155029335809}
+  - {fileID: -1379386965748126367}
 --- !u!114 &8026928536112371263
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -97,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 2
