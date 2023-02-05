@@ -2,28 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PortraitBuilder : MonoBehaviour
 {
-    [SerializeField]
-    private PortaitHelper _portaitHelper;
+    public TMP_Text Name;
 
-    [SerializeField]
-    private Transform _portraitAnchor;
-
-    public TMP_Text _portraitName;
+    public GameObject Hair;
+    public GameObject HairBack;
+    public GameObject Face;
+    public GameObject Expression;
 
     public void UpdatePortrait(NPC npc)
     {
         UpdateName(npc.name);
 
-        // TODO: update hair
+        var looks = npc.Look;
 
-        // TODO: update face
-
-        // TODO: update expression
-
-        // TODO: update hair back
+        foreach (var look in looks) {
+            if (look.Type == CharacterLook.LookType.Face) {
+                UpdateImage(look, Face);
+            }
+            if (look.Type == CharacterLook.LookType.Hair) {
+                UpdateImage(look, Hair);
+            }
+            if (look.Type == CharacterLook.LookType.HairBack) {
+                UpdateImage(look, HairBack);
+            }
+            if (look.Type == CharacterLook.LookType.Expression) {
+                UpdateImage(look, Expression);
+            }
+        }
     }
 
     public void MakeHappy()
@@ -48,7 +57,7 @@ public class PortraitBuilder : MonoBehaviour
 
     private void UpdateName(string name)
     {
-        _portraitName.text = name;
+        // Name.text = name;
     }
 
     private void UpdateExpression(GameObject expression)
@@ -56,6 +65,9 @@ public class PortraitBuilder : MonoBehaviour
     }
 
     private void UpdateImage(CharacterLook look, GameObject target)
-    { 
+    {
+        target.GetComponent<RawImage>().texture = look.Texture;
+        target.GetComponent<RectTransform>().position = new .x = look.OffsetX;
+        target.GetComponent<RectTransform>().position.x = look.OffsetX;
     }
 }
