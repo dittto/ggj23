@@ -10,13 +10,14 @@ public class ScamTree : MonoBehaviour
 
     public NPC EndNPC;
 
-    public void Start()
+    public NPC? FindByName(string name)
     {
+        foreach (var npc in NPCs) {
+            if (npc.gameObject.name == name) {
+                return npc;
+            }
+        }
 
-    }
-
-    public void Update()
-    {
-
+        return null;
     }
 }
