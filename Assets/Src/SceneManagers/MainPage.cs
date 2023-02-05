@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPage : MonoBehaviour
 {
@@ -12,6 +13,18 @@ public class MainPage : MonoBehaviour
 
     [SerializeField]
     private PortraitBuilder _portraitBuilder;
+
+    [SerializeField]
+    private GameObject _scamSection;
+
+    [SerializeField]
+    private ScamBuilder _scamBuilder;
+
+    [SerializeField]
+    private GameObject _postScamSection;
+
+    [SerializeField]
+    private PostScamBuilder _postScamBuilder;
 
     [SerializeField]
     private GameObject _prevProfileButton;
@@ -30,6 +43,15 @@ public class MainPage : MonoBehaviour
         ShowCharacterSelect();
 
     }
+    private void ShowCharacterSelect()
+    {
+        _marks = _gameLoop.GetPotentialMarks();
+        CreateCharacterSelect();
+
+        _characterProfileSection.SetActive(true);
+        _scamSection.SetActive(false);
+        _postScamSection.SetActive(false);
+    }
 
     public void ViewNextCharacterSelect(int dir)
     {
@@ -46,20 +68,14 @@ public class MainPage : MonoBehaviour
 
     public void ChooseCharacter()
     {
-        Debug.Log("choose character");
         _gameLoop.SelectMark(_marks[_currentPortraitPos]);
 
+        _scamBuilder.UpdateData(_marks[_currentPortraitPos]);
+
         _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(true);
+        _postScamSection.SetActive(false);
 
-        // TODO: show NFTreeSection
-    }
-
-    private void ShowCharacterSelect()
-    {
-        _marks = _gameLoop.GetPotentialMarks();
-        CreateCharacterSelect();
-
-        _characterProfileSection.SetActive(true);
     }
 
     private void CreateCharacterSelect()
@@ -68,5 +84,45 @@ public class MainPage : MonoBehaviour
 
         _prevProfileButton.SetActive(_marks.Count > 1);
         _nextProfileButton.SetActive(_marks.Count > 1);
+    }
+
+    public void Scam()
+    {
+        var state = _gameLoop.Trade(new List<NFTreeLook>(), true);
+
+        _postScamBuilder.UpdateData(_marks[_currentPortraitPos], state);
+
+        _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(false);
+        _postScamSection.SetActive(true);
+    }
+
+    public void DontScam()
+    {
+        var state = _gameLoop.Trade(new List<NFTreeLook>(), false);
+
+        _postScamBuilder.UpdateData(_marks[_currentPortraitPos], state);
+
+        _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(false);
+        _postScamSection.SetActive(true);
+    }
+
+    public void Continue()
+    {
+        ShowCharacterSelect();
+    }
+
+    public void Restart()
+    {
+        StartCoroutine(LoadMenuScene());
+    }
+
+    public IEnumerator LoadMenuScene()
+    {
+        var asyncLoad = SceneManager.LoadSceneAsync(0);
+        while (!asyncLoad.isDone) {
+            yield return null;
+        }
     }
 }

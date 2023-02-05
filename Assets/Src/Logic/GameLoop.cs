@@ -89,6 +89,7 @@ public class GameLoop : MonoBehaviour
         var totalWantPercent = GetTotalWantPercent(treeLooks);
         var markPercent = ActiveMark.Wants.Count * 100;
         var trustMultiplier = totalWantPercent >= markPercent ? 1 : (totalWantPercent == 0 ? -0.5 : 0.5);
+        trustMultiplier = 1;
 
         Player.UpdateTrust((int)Math.Ceiling(GameCosts.TrustForNFT * trustMultiplier));
         Player.UpdateMoney(-ActiveMark.NFCCost);
