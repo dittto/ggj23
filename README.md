@@ -1,4 +1,4 @@
-﻿# /root access - Global Game Jam 2023 - Guildford
+# /root access - Global Game Jam 2023 - Guildford
  
 https://globalgamejam.org/2023/games/rootaccess-1
 
@@ -39,3 +39,4 @@ And special thanks to Guildford Game Jam!
 - Add the Colonel's text box and responses
 - Swap out start screen for designed one
 - Add NFTree choices per character
+- Swap out Credits screen for designed one
