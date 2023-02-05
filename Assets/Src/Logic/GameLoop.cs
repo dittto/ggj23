@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,6 +8,9 @@ using Random = UnityEngine.Random;
 public class GameLoop : MonoBehaviour
 {
     public enum State { Safe, Scam, NoMoney, NoTargets, End };
+
+    [SerializeField]
+    private GameLoopStore _gameLoopStore;
 
     public Player Player;
 
@@ -19,6 +23,7 @@ public class GameLoop : MonoBehaviour
 
     public void Start()
     {
+        ActiveMark = ScamTree.FindByName(_gameLoopStore.ActiveName);
     }
 
     /// <summary>
@@ -63,6 +68,7 @@ public class GameLoop : MonoBehaviour
     public void SelectMark(NPC mark)
     {
         ActiveMark = mark;
+        _gameLoopStore.ActiveName = ActiveMark.gameObject.name;
 
         Player.UpdateMoney(-mark.InfoCost);
 

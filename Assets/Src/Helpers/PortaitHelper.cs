@@ -13,6 +13,11 @@ public class PortaitHelper : MonoBehaviour
     public CharacterLook Disappointed;
     public CharacterLook Passive;
 
+    public void RegisterProfile(Transform profileParent)
+    { 
+        Profile = profileParent;
+    }
+
     public void ShowPortrait(NPC npc)
     {
         _npc = npc;
