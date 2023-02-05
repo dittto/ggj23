@@ -14,6 +14,12 @@ public class MainPage : MonoBehaviour
     private PortraitBuilder _portraitBuilder;
 
     [SerializeField]
+    private GameObject _scamSection;
+
+    [SerializeField]
+    private ScamBuilder _scamBuilder;
+
+    [SerializeField]
     private GameObject _prevProfileButton;
 
     [SerializeField]
@@ -29,6 +35,14 @@ public class MainPage : MonoBehaviour
         // _portaitHelper.RegisterProfile(_portraitAnchor);
         ShowCharacterSelect();
 
+    }
+    private void ShowCharacterSelect()
+    {
+        _marks = _gameLoop.GetPotentialMarks();
+        CreateCharacterSelect();
+
+        _characterProfileSection.SetActive(true);
+        _scamSection.SetActive(false);
     }
 
     public void ViewNextCharacterSelect(int dir)
@@ -46,20 +60,13 @@ public class MainPage : MonoBehaviour
 
     public void ChooseCharacter()
     {
-        Debug.Log("choose character");
         _gameLoop.SelectMark(_marks[_currentPortraitPos]);
 
+        ShowScamSection();
+
         _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(true);
 
-        // TODO: show NFTreeSection
-    }
-
-    private void ShowCharacterSelect()
-    {
-        _marks = _gameLoop.GetPotentialMarks();
-        CreateCharacterSelect();
-
-        _characterProfileSection.SetActive(true);
     }
 
     private void CreateCharacterSelect()
@@ -68,5 +75,14 @@ public class MainPage : MonoBehaviour
 
         _prevProfileButton.SetActive(_marks.Count > 1);
         _nextProfileButton.SetActive(_marks.Count > 1);
+    }
+
+    private void ShowScamSection()
+    {
+        var activeMark = _marks[_currentPortraitPos];
+
+        _scamBuilder.UpdateData(activeMark);
+        
+        
     }
 }
