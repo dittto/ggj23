@@ -46,6 +46,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 8acbf6fecc88f7648ba4fe87ff9f404a, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 30
+  SizeY: 13
   GameObject: {fileID: 28245865313641451}
 --- !u!212 &28245865313641449
 SpriteRenderer:
@@ -191,6 +196,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 671fd9ce4cc88344c8f4e8bbda428780, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 32
+  SizeY: 19
   GameObject: {fileID: 28245865416050433}
 --- !u!212 &28245865416050495
 SpriteRenderer:
@@ -357,6 +367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 0550eed3034479e4298fbd1b977833a3, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 46
+  SizeY: 18
   GameObject: {fileID: 28245865503500090}
 --- !u!212 &28245865503500088
 SpriteRenderer:
@@ -456,6 +471,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 9f89b75e17a9f5d48a8dd9a3c64973a4, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 46
+  SizeY: 31
   GameObject: {fileID: 28245865512316620}
 --- !u!212 &28245865512316618
 SpriteRenderer:
@@ -555,6 +575,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 0eb649c8e68b9b742b5edeb34c6b8e90, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 46
+  SizeY: 31
   GameObject: {fileID: 28245865529512271}
 --- !u!212 &28245865529512269
 SpriteRenderer:
@@ -740,6 +765,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 1972a01b5b34e1c448bb342cb2a9d097, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 40
+  SizeY: 21
   GameObject: {fileID: 28245865531199435}
 --- !u!212 &28245865531199433
 SpriteRenderer:
@@ -1004,6 +1034,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: bdf668ff46b89334ebd545422f34833a, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 32
+  SizeY: 19
   GameObject: {fileID: 28245865555415130}
 --- !u!212 &28245865555415128
 SpriteRenderer:
@@ -1103,6 +1138,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 9310a071235b98c47aa3e5fe4dbc1181, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 46
+  SizeY: 18
   GameObject: {fileID: 28245865562284769}
 --- !u!212 &28245865562284831
 SpriteRenderer:
@@ -1248,6 +1288,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: eed50c56ddf77bf409b19fe633fe4078, type: 3}
+  OffsetX: 8
+  OffsetY: 41
+  SizeX: 42
+  SizeY: 22
   GameObject: {fileID: 28245865582870447}
 --- !u!212 &28245865582870445
 SpriteRenderer:
@@ -1347,6 +1392,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 0bd9cb81e66a64f4a85ce1543fafa73d, type: 3}
+  OffsetX: 9
+  OffsetY: -6
+  SizeX: 30
+  SizeY: 36
   GameObject: {fileID: 28245865604781076}
 --- !u!212 &28245865604781074
 SpriteRenderer:
@@ -1446,6 +1496,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
+  Texture: {fileID: 2800000, guid: 243a6fbf475600740bae506448c6f4fe, type: 3}
+  OffsetX: 11
+  OffsetY: -40
+  SizeX: 10
+  SizeY: 2
   GameObject: {fileID: 28245865623107464}
 --- !u!212 &28245865623107462
 SpriteRenderer:
@@ -1660,6 +1715,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
+  Texture: {fileID: 2800000, guid: 7ec15c2ba28d0c048959ebd337ea0d60, type: 3}
+  OffsetX: 10
+  OffsetY: -22
+  SizeX: 20
+  SizeY: 22
   GameObject: {fileID: 28245865728952856}
 --- !u!212 &28245865728952854
 SpriteRenderer:
@@ -1759,6 +1819,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 05babbaaf4ee1a04399c3bef004210b6, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 32
+  SizeY: 19
   GameObject: {fileID: 28245865771915052}
 --- !u!212 &28245865771915050
 SpriteRenderer:
@@ -1930,6 +1995,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
+  Texture: {fileID: 2800000, guid: 316ae49017159214d82d6eb7ef2ff829, type: 3}
+  OffsetX: 10
+  OffsetY: -6
+  SizeX: 22
+  SizeY: 28
   GameObject: {fileID: 28245865794983158}
 --- !u!212 &28245865794983156
 SpriteRenderer:
@@ -2029,6 +2099,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 778bbd8490ac03744b80efecc85c755b, type: 3}
+  OffsetX: 1
+  OffsetY: -1
+  SizeX: 46
+  SizeY: 45
   GameObject: {fileID: 28245865814974854}
 --- !u!212 &28245865814974852
 SpriteRenderer:
@@ -2128,6 +2203,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 3bf7e43bb6febd14abd29bffe14d05a4, type: 3}
+  OffsetX: 8
+  OffsetY: 41
+  SizeX: 42
+  SizeY: 22
   GameObject: {fileID: 28245865869285816}
 --- !u!212 &28245865869285814
 SpriteRenderer:
@@ -2292,6 +2372,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 1ab5d3ba0e48fed4485f7183b62f8a9c, type: 3}
+  OffsetX: 9
+  OffsetY: -6
+  SizeX: 30
+  SizeY: 36
   GameObject: {fileID: 28245865903131897}
 --- !u!212 &28245865903131895
 SpriteRenderer:
@@ -2391,6 +2476,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 28e64e82a648ce9449a10cb194478c5a, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 46
+  SizeY: 31
   GameObject: {fileID: 28245865906887233}
 --- !u!212 &28245865906887295
 SpriteRenderer:
@@ -2490,6 +2580,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: de18cfc04d07cc440b78e1391e16362c, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 40
+  SizeY: 21
   GameObject: {fileID: 28245865922125458}
 --- !u!212 &28245865922125456
 SpriteRenderer:
@@ -2638,6 +2733,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 09f498563b196d24281443d07844edd1, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 46
+  SizeY: 18
   GameObject: {fileID: 28245866128380642}
 --- !u!212 &28245866128380640
 SpriteRenderer:
@@ -2789,6 +2889,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 4c72204a04c03994f9372bc85c2e0e4c, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 30
+  SizeY: 13
   GameObject: {fileID: 28245866208376326}
 --- !u!212 &28245866208376324
 SpriteRenderer:
@@ -3107,6 +3212,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 49fd63580edbd5045a92a660b21e3ca0, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 32
+  SizeY: 19
   GameObject: {fileID: 28245866337511667}
 --- !u!212 &28245866337511665
 SpriteRenderer:
@@ -3206,6 +3316,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 3
+  Texture: {fileID: 2800000, guid: ff9fb503d502c0844af4d3e1a8ceee50, type: 3}
+  OffsetX: 10
+  OffsetY: -30
+  SizeX: 18
+  SizeY: 14
   GameObject: {fileID: 28245866337751659}
 --- !u!212 &28245866337751657
 SpriteRenderer:
@@ -3336,6 +3451,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: 599aa785719375f4397c0d3eac2227e6, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 32
+  SizeY: 19
   GameObject: {fileID: 28245866406056068}
 --- !u!212 &28245866406056066
 SpriteRenderer:
@@ -3435,6 +3555,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 0e4e8a1324df449459d6e44c48ccbadb, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 46
+  SizeY: 31
   GameObject: {fileID: 28245866450031239}
 --- !u!212 &28245866450031237
 SpriteRenderer:
@@ -3534,6 +3659,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 07f83e3938ff5e94a8e6400d9f8ca092, type: 3}
+  OffsetX: 2
+  OffsetY: -6
+  SizeX: 44
+  SizeY: 36
   GameObject: {fileID: 28245866533748015}
 --- !u!212 &28245866533748013
 SpriteRenderer:
@@ -3633,6 +3763,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 988e7b1a12ca0b14e82738ee3ab3b419, type: 3}
+  OffsetX: 9
+  OffsetY: -4
+  SizeX: 40
+  SizeY: 40
   GameObject: {fileID: 28245866560535398}
 --- !u!212 &28245866560535396
 SpriteRenderer:
@@ -3732,6 +3867,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: d4851fb1a47a3934583ba73d324cc80b, type: 3}
+  OffsetX: 8
+  OffsetY: 41
+  SizeX: 42
+  SizeY: 22
   GameObject: {fileID: 28245866567056895}
 --- !u!212 &28245866567056893
 SpriteRenderer:
@@ -3831,6 +3971,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: d40df5ae13e0a2c42bf6a97527b75e40, type: 3}
+  OffsetX: 9
+  OffsetY: -4
+  SizeX: 40
+  SizeY: 40
   GameObject: {fileID: 28245866606285988}
 --- !u!212 &28245866606285986
 SpriteRenderer:
@@ -3930,6 +4075,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 5f1e0eb4d306b46428b4087c69841e70, type: 3}
+  OffsetX: 9
+  OffsetY: -6
+  SizeX: 30
+  SizeY: 36
   GameObject: {fileID: 28245866645568576}
 --- !u!212 &28245866645568638
 SpriteRenderer:
@@ -4029,6 +4179,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: e3a40893552195e40aedb8bd30b920d9, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 46
+  SizeY: 18
   GameObject: {fileID: 28245866658736696}
 --- !u!212 &28245866658736694
 SpriteRenderer:
@@ -4175,6 +4330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 94ed23d9260f6f54eaae9758904bfaf8, type: 3}
+  OffsetX: 8
+  OffsetY: 41
+  SizeX: 42
+  SizeY: 22
   GameObject: {fileID: 28245866682945706}
 --- !u!212 &28245866682945704
 SpriteRenderer:
@@ -4274,6 +4434,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: bfeab4e622bf38c42b10eb37d7bfb402, type: 3}
+  OffsetX: 4
+  OffsetY: -3
+  SizeX: 30
+  SizeY: 40
   GameObject: {fileID: 28245866686812920}
 --- !u!212 &28245866686812918
 SpriteRenderer:
@@ -4373,6 +4538,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 295641aec288f224da494a7fb92fc483, type: 3}
+  OffsetX: 4
+  OffsetY: -3
+  SizeX: 30
+  SizeY: 40
   GameObject: {fileID: 28245866703647013}
 --- !u!212 &28245866703647011
 SpriteRenderer:
@@ -4472,6 +4642,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 8ed2c76b82509944d8fc02a1883a8cac, type: 3}
+  OffsetX: 4
+  OffsetY: -3
+  SizeX: 30
+  SizeY: 40
   GameObject: {fileID: 28245866705476039}
 --- !u!212 &28245866705476037
 SpriteRenderer:
@@ -4571,6 +4746,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: d79fb1eeba7b665429bc25e0d2cceb26, type: 3}
+  OffsetX: 9
+  OffsetY: -4
+  SizeX: 40
+  SizeY: 40
   GameObject: {fileID: 28245866707145354}
 --- !u!212 &28245866707145352
 SpriteRenderer:
@@ -4701,6 +4881,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 80895d547cd72a8469ebcf328bb92ccd, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 46
+  SizeY: 31
   GameObject: {fileID: 28245866775955407}
 --- !u!212 &28245866775955402
 SpriteRenderer:
@@ -4800,6 +4985,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 2e8e7703ee4ff4945b9f2ecba7842be5, type: 3}
+  OffsetX: 4
+  OffsetY: -3
+  SizeX: 30
+  SizeY: 40
   GameObject: {fileID: 28245866800802243}
 --- !u!212 &28245866800802241
 SpriteRenderer:
@@ -5001,6 +5191,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 35a9c0875aaeccc478c18c0a4eec4d49, type: 3}
+  OffsetX: 8
+  OffsetY: 41
+  SizeX: 42
+  SizeY: 22
   GameObject: {fileID: 28245866922598107}
 --- !u!212 &28245866922598105
 SpriteRenderer:
@@ -5182,6 +5377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e556130fe5ce1744b6145bd943ca6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Money: 0
+  Trust: 0
   Look: []
   _startMoney: 1000
   _startTrust: 50
@@ -5232,6 +5429,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: f9a1f3fb10486c945bd4e20ce3f028ee, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 40
+  SizeY: 21
   GameObject: {fileID: 28245867132390696}
 --- !u!212 &28245867132390694
 SpriteRenderer:
@@ -5331,6 +5533,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: f1348db73b4a91548a46d42f834d2e17, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 40
+  SizeY: 21
   GameObject: {fileID: 28245867181646528}
 --- !u!212 &28245867181646590
 SpriteRenderer:
@@ -5499,6 +5706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 0
+  Texture: {fileID: 2800000, guid: 088079d1b3c6b1a48869c34f7fec9054, type: 3}
+  OffsetX: 8
+  OffsetY: 38
+  SizeX: 40
+  SizeY: 21
   GameObject: {fileID: 28245867204583494}
 --- !u!212 &28245867204583492
 SpriteRenderer:
@@ -5598,6 +5810,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: d97cec0ec1e762749a306942eea6f869, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 46
+  SizeY: 18
   GameObject: {fileID: 28245867211132428}
 --- !u!212 &28245867211132426
 SpriteRenderer:
@@ -5697,6 +5914,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: ae8b79c8f636ecb43843eb51312859cf, type: 3}
+  OffsetX: 9
+  OffsetY: -4
+  SizeX: 40
+  SizeY: 40
   GameObject: {fileID: 28245867261195529}
 --- !u!212 &28245867261195527
 SpriteRenderer:
@@ -5830,6 +6052,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: ec024f2d30545bf409d8714c7edf499e, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 30
+  SizeY: 13
   GameObject: {fileID: 28245867372612309}
 --- !u!212 &28245867372612307
 SpriteRenderer:
@@ -5929,6 +6156,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 2
+  Texture: {fileID: 2800000, guid: 68b6e7c7064248c41a3bed4f4d1f2917, type: 3}
+  OffsetX: 9
+  OffsetY: -6
+  SizeX: 30
+  SizeY: 36
   GameObject: {fileID: 28245867383551604}
 --- !u!212 &28245867383551602
 SpriteRenderer:
@@ -6028,6 +6260,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: fd55d169044891f49bec3ee13cdbb43a, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 30
+  SizeY: 13
   GameObject: {fileID: 28245867396028367}
 --- !u!212 &28245867396028365
 SpriteRenderer:
@@ -6127,6 +6364,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Type: 1
+  Texture: {fileID: 2800000, guid: c86c63d4a93d3e8498f860da0bf2a033, type: 3}
+  OffsetX: 9
+  OffsetY: -60
+  SizeX: 30
+  SizeY: 13
   GameObject: {fileID: 28245867430170654}
 --- !u!212 &28245867430170652
 SpriteRenderer:

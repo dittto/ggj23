@@ -39,13 +39,14 @@ public class MainPage : MonoBehaviour
     {
         // TODO: add tutorial script
 
-        // _portaitHelper.RegisterProfile(_portraitAnchor);
         ShowCharacterSelect();
 
     }
     private void ShowCharacterSelect()
     {
         _marks = _gameLoop.GetPotentialMarks();
+        _currentPortraitPos = 0;
+        Debug.Log("ShowCharacterSelect " + _marks.Count);
         CreateCharacterSelect();
 
         _characterProfileSection.SetActive(true);
@@ -56,12 +57,15 @@ public class MainPage : MonoBehaviour
     public void ViewNextCharacterSelect(int dir)
     {
         _currentPortraitPos += dir;
-        if (_currentPortraitPos > (_marks.Count - 1)) {
+        if (_currentPortraitPos >= _marks.Count) {
             _currentPortraitPos = 0;
         }
         if (_currentPortraitPos < 0) {
             _currentPortraitPos = _marks.Count - 1;
         }
+        Debug.Log("ViewNextCharacterSelect dir: " + dir);
+        Debug.Log("ViewNextCharacterSelect count: " + _marks.Count);
+        Debug.Log("ViewNextCharacterSelect #: " + _currentPortraitPos);
 
         CreateCharacterSelect();
     }
@@ -80,6 +84,9 @@ public class MainPage : MonoBehaviour
 
     private void CreateCharacterSelect()
     {
+        Debug.Log("CreateCharacterSelect count: " + _marks.Count);
+        Debug.Log("CreateCharacterSelect #: " + _currentPortraitPos);
+
         _portraitBuilder.UpdatePortrait(_marks[_currentPortraitPos]);
 
         _prevProfileButton.SetActive(_marks.Count > 1);

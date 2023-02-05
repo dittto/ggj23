@@ -8,15 +8,15 @@ public class CharacterLook : MonoBehaviour
 
     public LookType Type;
 
+    public Texture2D Texture;
+
+    public int OffsetX;
+
+    public int OffsetY;
+
+    public int SizeX;
+
+    public int SizeY;
+
     public GameObject GameObject;
-
-    public void Start()
-    {
-
-    }
-
-    public void Update()
-    {
-
-    }
 }
