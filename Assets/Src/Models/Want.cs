@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Want : MonoBehaviour
 {
-    public string _name;
+    public string Name;
 
-    public List<Want> _similarWants;
+    public List<Want> SimilarWants;
 
-    public List<int> _similarWantPercents;
+    public List<int> SimilarWantPercents;
 
     public void Start()
     {

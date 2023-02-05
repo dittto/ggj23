@@ -2,21 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NFTTreeLook : MonoBehaviour
+public class NFTreeLook : MonoBehaviour
 {
-    enum Type { Branches, Trunk, Roots }
+    public enum LookType { Branches, Trunk, Roots }
 
-    [SerializeField]
-    private Type _type;
+    public LookType Type;
 
-    [SerializeField]
-    private Sprite _image;
+    public GameObject GameObject;
+
+    public List<Want> Wants;
 
     public void Start()
-    {
-
-    }
-    public void Update()
     {
 
     }

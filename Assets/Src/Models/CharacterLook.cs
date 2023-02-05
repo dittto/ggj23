@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class CharacterLook : MonoBehaviour
 {
-    enum Type { Hair, HairBack, Face, Expression }
+    public enum LookType { Hair, HairBack, Face, Expression }
 
-    [SerializeField]
-    private Type _type;
+    public LookType Type;
 
-    [SerializeField]
-    public GameObject _gameObject;
+    public GameObject GameObject;
 
     public void Start()
     {

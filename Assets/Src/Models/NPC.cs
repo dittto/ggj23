@@ -10,7 +10,9 @@ public class NPC : MonoBehaviour
 
     public List<CharacterLook> Look;
 
-    public int Cost;
+    public int InfoCost;
+
+    public int NFCCost;
 
     public int BankAccount;
 
@@ -28,6 +30,12 @@ public class NPC : MonoBehaviour
 
     public Nationality Nationality;
 
+    public List<NPC> Neighbours;
+
+    public bool HasSucceeded;
+
+    public bool HasFailed;
+
     public void Start()
     {
 
@@ -40,9 +48,23 @@ public class NPC : MonoBehaviour
 
     public void ShowMain(Transform profile)
     {
-        for (var i = 0; i < Look.Count; i++) {
-            var newObj = Instantiate(Look[i]._gameObject, profile);
+        foreach (var look in Look) {
+            var newObj = Instantiate(look.GameObject, profile);
             newObj.layer = 0;
+        }
+    }
+
+    public void ChangeExpression(Transform profile, GameObject newLook)
+    {
+        var replacementType = newLook.GetComponent<CharacterLook>().Type;
+        var looks = profile.GetComponentsInChildren<CharacterLook>();
+
+        foreach (var look in looks) {
+            if (look.Type == replacementType) {
+                Destroy(look.gameObject);
+                var newObj = Instantiate(newLook, profile);
+                newObj.layer = 0;
+            }
         }
     }
 }

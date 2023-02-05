@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -11,17 +12,34 @@ public class MainSetup : MonoBehaviour
     private NPC _npcTest;
 
     [SerializeField]
-    private Transform _profile;
+    private NPC _npcTest2;
+
+    public PortaitHelper PortaitHelper;
 
     public void Start()
     {
-        _npcTest.transform.transform.localPosition = Vector3.zero;
-
-        _npcTest.GetComponent<NPC>().ShowMain(_profile);
+        StartCoroutine(WaitForFunction());
     }
 
     public void Update()
     {
 
+    }
+
+    private IEnumerator WaitForFunction()
+    {
+        PortaitHelper.ShowPortrait(_npcTest);
+
+        yield return new WaitForSeconds(2);
+
+        PortaitHelper.MakeHappy();
+
+        yield return new WaitForSeconds(2);
+
+        PortaitHelper.MakeAngry();
+
+        yield return new WaitForSeconds(2);
+
+        PortaitHelper.ShowPortrait(_npcTest2);
     }
 }
