@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &26134622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 65077feff85e7490ca0953328ea94440, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -711,7 +711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9122134016875335966, guid: 0d150e16b978845acac8e7df59d35c72, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 9122134016875335966, guid: 0d150e16b978845acac8e7df59d35c72, type: 3}
       propertyPath: m_SizeDelta.y
@@ -747,11 +747,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9122134016875335966, guid: 0d150e16b978845acac8e7df59d35c72, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -276
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9122134016875335966, guid: 0d150e16b978845acac8e7df59d35c72, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 326
+      value: 141.99998
       objectReference: {fileID: 0}
     - target: {fileID: 9122134016875335966, guid: 0d150e16b978845acac8e7df59d35c72, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -830,6 +830,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 725477938}
     m_Modifications:
+    - target: {fileID: 4274229529616968424, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274229529616968424, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274229529616968424, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21960786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274229529616968424, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21960786
+      objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968437, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_Name
       value: StartButton
@@ -864,7 +880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968438, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968438, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_SizeDelta.y
@@ -900,11 +916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968438, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968438, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 31
+      value: 202
       objectReference: {fileID: 0}
     - target: {fileID: 4274229529616968438, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -945,6 +961,10 @@ PrefabInstance:
     - target: {fileID: 4274229529616968439, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274229529914076402, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4274229529616968426, guid: dcf0bda89ad774e9eadd4ede0a94e309, type: 3}
@@ -1112,7 +1132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4784308223341899929, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 4784308223341899929, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1148,11 +1168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4784308223341899929, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 276
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4784308223341899929, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 326
+      value: 142
       objectReference: {fileID: 0}
     - target: {fileID: 4784308223341899929, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1168,11 +1188,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6238438863988663895, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_text
-      value: shut down
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6503086638766146590, guid: a604c485155b74094bf58e6bd525c850, type: 3}
       propertyPath: m_Name
       value: ExitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866492058234994316, guid: a604c485155b74094bf58e6bd525c850, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a604c485155b74094bf58e6bd525c850, type: 3}
