@@ -48,7 +48,7 @@ public class PortraitBuilder : MonoBehaviour
 
     private void UpdateName(string name)
     {
-        _portraitName.text = name;
+        // _portraitName.text = name;
     }
 
     private void UpdateExpression(GameObject expression)
