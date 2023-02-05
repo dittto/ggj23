@@ -13,11 +13,22 @@ public class PortraitBuilder : MonoBehaviour
     public GameObject Face;
     public GameObject Expression;
 
+    public GameObject Happy;
+    public GameObject Angry;
+    public GameObject Passive;
+    public GameObject Disappointed;
+
     public void UpdatePortrait(NPC npc)
     {
         UpdateName(npc.name);
 
         var looks = npc.Look;
+
+        Hair.SetActive(false);
+        HairBack.SetActive(false);
+        Face.SetActive(false);
+        Expression.SetActive(false);
+
 
         foreach (var look in looks) {
             if (look.Type == CharacterLook.LookType.Face) {
@@ -67,7 +78,8 @@ public class PortraitBuilder : MonoBehaviour
     private void UpdateImage(CharacterLook look, GameObject target)
     {
         target.GetComponent<RawImage>().texture = look.Texture;
-        target.GetComponent<RectTransform>().position = new .x = look.OffsetX;
-        target.GetComponent<RectTransform>().position.x = look.OffsetX;
+        target.GetComponent<RectTransform>().sizeDelta = new Vector2(look.SizeX, look.SizeY);
+        target.GetComponent<RectTransform>().localPosition = new Vector3(look.OffsetX, look.OffsetY, 0);
+        target.SetActive(true);
     }
 }
