@@ -19,7 +19,9 @@ Some people are wealthy, some aren’t. That’s life. Hack a rich guy and you m
 ## TODOs
 
 - Add NPCs with text and values
+- Fix rescamming the same person
 - Add SFX for NPCs
 - Add end screen
 - Add the Colonel's text box and responses
 - Swap out start screen for designed one
+- Add NFTree choices per character
