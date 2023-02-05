@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPage : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class MainPage : MonoBehaviour
 
     [SerializeField]
     private ScamBuilder _scamBuilder;
+
+    [SerializeField]
+    private GameObject _postScamSection;
+
+    [SerializeField]
+    private PostScamBuilder _postScamBuilder;
 
     [SerializeField]
     private GameObject _prevProfileButton;
@@ -43,6 +50,7 @@ public class MainPage : MonoBehaviour
 
         _characterProfileSection.SetActive(true);
         _scamSection.SetActive(false);
+        _postScamSection.SetActive(false);
     }
 
     public void ViewNextCharacterSelect(int dir)
@@ -62,10 +70,11 @@ public class MainPage : MonoBehaviour
     {
         _gameLoop.SelectMark(_marks[_currentPortraitPos]);
 
-        ShowScamSection();
+        _scamBuilder.UpdateData(_marks[_currentPortraitPos]);
 
         _characterProfileSection.SetActive(false);
         _scamSection.SetActive(true);
+        _postScamSection.SetActive(false);
 
     }
 
@@ -77,12 +86,43 @@ public class MainPage : MonoBehaviour
         _nextProfileButton.SetActive(_marks.Count > 1);
     }
 
-    private void ShowScamSection()
+    public void Scam()
     {
-        var activeMark = _marks[_currentPortraitPos];
+        var state = _gameLoop.Trade(new List<NFTreeLook>(), true);
 
-        _scamBuilder.UpdateData(activeMark);
-        
-        
+        _postScamBuilder.UpdateData(_marks[_currentPortraitPos], state);
+
+        _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(false);
+        _postScamSection.SetActive(true);
+    }
+
+    public void DontScam()
+    {
+        var state = _gameLoop.Trade(new List<NFTreeLook>(), false);
+
+        _postScamBuilder.UpdateData(_marks[_currentPortraitPos], state);
+
+        _characterProfileSection.SetActive(false);
+        _scamSection.SetActive(false);
+        _postScamSection.SetActive(true);
+    }
+
+    public void Continue()
+    {
+        ShowCharacterSelect();
+    }
+
+    public void Restart()
+    {
+        StartCoroutine(LoadMenuScene());
+    }
+
+    public IEnumerator LoadMenuScene()
+    {
+        var asyncLoad = SceneManager.LoadSceneAsync(0);
+        while (!asyncLoad.isDone) {
+            yield return null;
+        }
     }
 }

@@ -10,6 +10,7 @@ public class ScamBuilder : MonoBehaviour
     public TMP_Text ThreatLevel;
 
     public TMP_Text Cost;
+
     public void UpdateData(NPC data)
     {
         Request.text = data.ConversationStart;
