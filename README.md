@@ -1,4 +1,6 @@
 ﻿# /root access - Global Game Jam 2023 - Guildford
+ 
+https://globalgamejam.org/2023/games/rootaccess-1
 
 It’s 21XX. The outside world is largely uninhabitable. Most in-person interaction has been replaced by an interconnected VR network that interacts with neural implants through a headset, all designed and sold by Mianaai Corp. Plants, seasons, William Gibson novels, all now half-remembered remnants of the old world. This was supposed to be fun…
 
@@ -15,6 +17,18 @@ I’m gonna help you get to the top of the food chain, starting with the bottom 
 Some people are low threat, which means they’re unlikely to detect a hack. If they do detect it, good luck meeting their powerful friends.
 
 Some people are wealthy, some aren’t. That’s life. Hack a rich guy and you might be able to spare the next few rubes. Let’s get paid.
+
+## Credits
+
+- Tautvydas Kuliešius - Sound Designer
+- Nick Stacey - Coder
+- Naomi Sheridan - Game & UX Designer
+- Joey Ashworth - Writer
+- Levi Ashworth - Artist
+- Leila Harris - Composer
+
+And special thanks to Guildford Game Jam!
+
 
 ## TODOs
 
