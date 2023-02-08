@@ -32,11 +32,12 @@ And special thanks to Guildford Game Jam!
 
 ## TODOs
 
+- Add tutorial
 - Add NPCs with text and values
 - Fix rescamming the same person
 - Add SFX for NPCs
 - Add end screen
-- Add the Colonel's text box and responses
-- Swap out start screen for designed one
+- Add the Colonel's responses
 - Add NFTree choices per character
-- Swap out Credits screen for designed one
+- Add SFX for 'Choose' button
+- 

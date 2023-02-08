@@ -1612,7 +1612,7 @@ GameObject:
   - component: {fileID: 28245865703135562}
   - component: {fileID: 28245865703135563}
   m_Layer: 6
-  m_Name: NPC 1
+  m_Name: Ed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Player 1
+  Name: Ed, a self-made socialite
   Wants:
   - {fileID: 28245865551547484}
   Look:
@@ -1653,14 +1653,17 @@ MonoBehaviour:
   - {fileID: 28245867383551603}
   - {fileID: 28245865623107463}
   - {fileID: 28245865562284828}
-  InfoCost: 0
-  NFCCost: 0
-  BankAccount: 400
-  Trust: 0
-  Threat: 10
-  ConversationStart: Hallo, my name is NPC 1
-  ConversationSuccess: kthxbai
-  ConversationFailure: boooooo
+  InfoCost: 50
+  NFCCost: 100
+  BankAccount: 1000
+  Trust: 1
+  Threat: 1
+  ConversationStart: I want, and I cannot stress this enough, a big damn tree. A
+    statement tree. Get it done.
+  ConversationSuccess: "Wow, yeah, I mean, that\u2019s a huge tree. I\u2019ll recommend
+    you to my friends. Keep it large, pal"
+  ConversationFailure: "Did I ask for a big bonsai tree? Did I ask for a large stick?
+    No, I didn\u2019t. I can\u2019t show this to my friends. Jeez\u2026"
   ConversationScam: wtf?!
   Nationality: {fileID: 0}
   Neighbours:
