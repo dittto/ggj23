@@ -820,8 +820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00015170994, y: -85}
-  m_SizeDelta: {x: 900, y: 800}
+  m_AnchoredPosition: {x: 0.000045322, y: -13}
+  m_SizeDelta: {x: 900, y: 723.7781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258291575
 MonoBehaviour:
@@ -856,8 +856,8 @@ MonoBehaviour:
     That\u2019s life. Hack a rich guy and you might be able to spare the next few
     rubes. Let\u2019s get paid.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: -4002978699093192877, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 83.151184}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1668,8 +1668,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00015170994, y: 60}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_AnchoredPosition: {x: 6.9291, y: 19.579187}
+  m_SizeDelta: {x: 1013.8586, y: 780.8416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &548525344
 GameObject:
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236aff819396fcf4b8f32943b7fc3414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: {fileID: 0}
+  Name: {fileID: 666768054}
   Hair: {fileID: 2019783855}
   HairBack: {fileID: 608506618}
   Face: {fileID: 1369329460}
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_text: Profile text1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: -4002978699093192877, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2439,210 +2439,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Name
-      value: Krutika, a researcher
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Trust
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Threat
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: NFCCost
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: InfoCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: BankAccount
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationScam
-      value: " Ok, great. You just made my day worse, which I didn\u2019t think was
-        possible. I hope you enjoyed that, asshole."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationStart
-      value: "*crackle* Hello? Sorry I\u2019m *crackle* having some technical issues\u2026
-        There we go! Sorry, I work at Mianaai Corp and I\u2019m testing some new
-        headset tech. It\u2019s not exactly working as designed. I\u2019m still tweaking
-        the neural link and visual sensors. Can you knock together a simple tree
-        to look at, feel and smell? It would be a real help."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationFailure
-      value: "This is a little high concept for me to be honest, which is something
-        I never thought I\u2019d say about a tree. Maybe next time.  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877376, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationSuccess
-      value: "Perfect, thanks. You\u2019re a lifesaver."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865499877378, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: m_Name
-      value: Krutika
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865703135563, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: InfoCost
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Name
-      value: Bill, a retired scientist
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Trust
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Threat
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: NFCCost
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: InfoCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: BankAccount
-      value: 1200
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationScam
-      value: "You shouldn\u2019t have done that, sport. You\u2019ve taken advantage
-        of a sad old man looking for a glimpse of his youth. I have tried so hard
-        not to become bitter. Goodbye."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationStart
-      value: "Hey there sport! Is that a Mianaai-80 neural headset you\u2019re using
-        there? I could tell! You might not believe me, but I made my money working
-        on the MNI-17 back in the day. Back then you could take the thing off, go
-        for a walk outside, buy some lunch and come back to work. Imagine! When everything
-        started breaking down, it was my old workmates who stepped in to save humanity.
-        They made the apartments we live in, the vitamin powder we eat, and of course
-        the headsets. We may pay them, but haven\u2019t they earned it? Make an old
-        man happy and make a tree like the ones I used to see in the park on my break.
-        They had big, thick trunks. Take me back there, if you can."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationFailure
-      value: "Ah, I suppose you younguns must have a little trouble remembering trees.
-        Perfectly understandable. Partly my fault, to be honest. We didn\u2019t know
-        what we were doing."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617655, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationSuccess
-      value: "Good lord, this is perfect. I\u2019m sorry for crying. I\u2019m sorry
-        for everything."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245865893617657, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: m_Name
-      value: Bill
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Name
-      value: Curtis, a professional gadfly
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Trust
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Threat
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: InfoCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: BankAccount
-      value: 750
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationScam
-      value: "Well, well, well. You think you\u2019re pretty smart, don\u2019t you?
-        I will make sure everyone hears about this, you sad little troll."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationStart
-      value: "I\u2019m having a party next week and I expect some big names to be
-        there. People from Mianaai Corp. Nowadays you\u2019re barely anyone without
-        a half decent tree to display. Do I look like I know types of trees? A cool
-        tree I guess? Brown leaves? Can you do that?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationFailure
-      value: "I learned a new word the other day, from the old world. The word is
-        \u2018autumnal\u2019. This tree is not autumnal in the slightest. The leaves
-        are all wrong. Lose my number."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275929, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationSuccess
-      value: "My guests will love this! I\u2019ll tell everyone I got it from you,
-        of course. Keep my number."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866212275931, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: m_Name
-      value: Curtis
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Name
-      value: Lena, a journalist
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Trust
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: Threat
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: NFCCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: InfoCost
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: BankAccount
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationStart
-      value: "Hi there. So usually I\u2019m a journalist, but right now I\u2019m
-        working on a book about the history of the old world. As I understand it,
-        trees used to have little seeds in them, that dropped down? I\u2019d really
-        like to see that up close. I think if I can understand that I might be able
-        to work out how we used to grow stuff. They say the soil\u2019s all bad now,
-        but have you ever tried? Have you ever seen it?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationFailure
-      value: "Yeah, so this isn\u2019t really what I was looking for. Nevermind."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694191, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: ConversationSuccess
-      value: "Great, this is fantastic. I can work with this. I\u2019ll let you know
-        if I find anything interesting."
-      objectReference: {fileID: 0}
-    - target: {fileID: 28245866838694193, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
-      propertyPath: m_Name
-      value: Lena
-      objectReference: {fileID: 0}
     - target: {fileID: 3048068722249840340, guid: 18bf77660e6952947bbc85e8310ce7a2, type: 3}
       propertyPath: m_Name
       value: -- Game Prefab

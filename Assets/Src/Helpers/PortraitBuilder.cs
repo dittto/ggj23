@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -20,7 +21,7 @@ public class PortraitBuilder : MonoBehaviour
 
     public void UpdatePortrait(NPC npc)
     {
-        UpdateName(npc.name);
+        UpdateName(npc.Name);
 
         var looks = npc.Look;
 
@@ -48,31 +49,27 @@ public class PortraitBuilder : MonoBehaviour
 
     public void MakeHappy()
     {
-        // _npc.ChangeExpression(Profile, Happy.GameObject);
+        UpdateImage(Happy.GetComponent<CharacterLook>(), Expression);
     }
 
     public void MakeAngry()
     {
-        // _npc.ChangeExpression(Profile, Angry.GameObject);
+        UpdateImage(Angry.GetComponent<CharacterLook>(), Expression);
     }
 
     public void MakeDisappointed()
     {
-        // _npc.ChangeExpression(Profile, Disappointed.GameObject);
+        UpdateImage(Disappointed.GetComponent<CharacterLook>(), Expression);
     }
 
     public void MakePassive()
     {
-        // _npc.ChangeExpression(Profile, Passive.GameObject);
+        UpdateImage(Passive.GetComponent<CharacterLook>(), Expression);
     }
 
     private void UpdateName(string name)
     {
-        // Name.text = name;
-    }
-
-    private void UpdateExpression(GameObject expression)
-    { 
+        Name.text = name;
     }
 
     private void UpdateImage(CharacterLook look, GameObject target)

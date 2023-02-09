@@ -1,5 +1,822 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &148293320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148293321}
+  - component: {fileID: 148293322}
+  m_Layer: 6
+  m_Name: Hugo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148293321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148293320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148293322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148293320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hugo, an entrepreneur
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245867383551603}
+  - {fileID: 28245865922125457}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "You wanna know how I got so rich? Constant, unrelenting self-optimisation.
+    My father was the same way and he ended up with a multi-billion dollar fortune
+    which I had to grind to earn my share of. I\u2019m talking 9am mornings, sending
+    emails three hours a day. Do you know how hard it is to write an email? Make
+    me a tree that represents my unfailing commitment to the grind"
+  ConversationSuccess: "Yep, that\u2019s a tree that works hard. I\u2019m gonna let
+    the boys know that you\u2019re alright, tree-guy."
+  ConversationFailure: "This\u2026 seems wrong."
+  ConversationScam: "I woke up from my nap this afternoon to discover that you freaking
+    scammed me?? What the hell, loser? You\u2019re gonna pay for this. You\u2019re
+    gonna find out what a hard day\u2019s work is, tree-guy."
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 225111607}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &225111605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225111606}
+  - component: {fileID: 225111607}
+  m_Layer: 6
+  m_Name: Alex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225111606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225111605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &225111607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225111605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Alex, head of R&D at Mianaai Corp
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866560535397}
+  - {fileID: 28245865512316619}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hello. I\u2019ve heard about the emotional responses your trees
+    can create. Very impressive. I need you to work on something, but you must be
+    discrete. I need a tree that can affect more people than just those in its immediate
+    vicinity. A sort of emotional beacon. A tree that makes everyone in the Mianaai
+    system feel, oh, I don\u2019t know, angry, for example. Or maybe less curious
+    about where the trees went? Of course, this is all just speculative research.
+    Red leaves, green trunk. You will be rewarded and recommended to a more senior
+    figure, even than myself."
+  ConversationSuccess: My goodness, it is possible. Good work.
+  ConversationFailure: "Hmm. Well, don\u2019t worry about it I suppose. Please forget
+    this conversation ever happened."
+  ConversationScam: "Don\u2019t bother running, your headset should already be putting
+    you to sleep. When you wake up, you won\u2019t remember a thing. Idiot."
+  Nationality: {fileID: 0}
+  Neighbours: []
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &472659083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472659084}
+  - component: {fileID: 472659085}
+  m_Layer: 6
+  m_Name: Mandy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472659084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472659083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472659085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472659083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Mandy, PR at Mianaii
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866645568639}
+  - {fileID: 28245866922598102}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "When I was a kid, my parents used to take me to the park to
+    play and meet other kids. I remember it being so exciting to just be able to
+    run, you know? I want to give my daughter that same experience, but there\u2019s
+    no way we can afford the equipment to simulate a whole park. I\u2019ve promised
+    her a tree for her birthday - can you help? She likes skinny trees with green
+    leaves."
+  ConversationSuccess: Oh my goodness, this is for me? Are you sure? My little girl
+    is going to love this. Sincerely, thank you. Let me introduce you to someone.
+  ConversationFailure: "Oh, that\u2019s\u2026 That\u2019s fine, I suppose. I\u2019ll
+    make do. Maybe next year."
+  ConversationScam: "Oh I see, you just wanted my money. I don\u2019t have the energy
+    to be angry with you. It\u2019s not me you\u2019re hurting, it\u2019s my little
+    girl. You should be ashamed. "
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 225111607}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &484734071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484734072}
+  - component: {fileID: 484734073}
+  m_Layer: 6
+  m_Name: Felix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484734072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484734071}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &484734073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484734071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Manasvi, a Mianaai functionary
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866560535397}
+  - {fileID: 28245867204583493}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hello comrade! I\u2019m trying to inspire people to move beyond
+    critiques of our system and into real practical action in service of a better
+    world. Do you have a tree that could inspire some sort of revolutionary fervour?
+    Red leaves, I think."
+  ConversationSuccess: Perfect! This tree is politically sound and dialectically
+    unimpeachable! At this rate, Mianaai Corp will topple in days! Thank you, comrade.
+  ConversationFailure: "I hate to pull you aside like this comrade, but this tree
+    has some seriously counter-revolutionary characteristics. The leaves, for a start,
+    are deeply reactionary. I\u2019m distancing myself from you."
+  ConversationScam: Betrayal! Revisionism! Counter-revolutionary thinking! Mark my
+    words, in the new, free and equal society, you will suffer greatly.
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 821589319}
+  - {fileID: 1786837819}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &821589317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 821589318}
+  - component: {fileID: 821589319}
+  m_Layer: 6
+  m_Name: Lena (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &821589318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821589317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &821589319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821589317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Lena, a journalist
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245865604781075}
+  - {fileID: 28245865922125457}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hi again. I have to be quick. So the tree you sent me last
+    time really helped with my research and - hear me out but\u2026 I think I might
+    have a way to make trees grow again. They were right, the soil is bad, real trees
+    can\u2019t grow, but it\u2019s reversible. The world wants to get better. It\u2019s
+    Mianaai. They purposefully ruined the soil to create a captive market for their
+    products. They weren\u2019t a perfect company who saved us, they\u2019re the
+    reason we needed saving. We need everybody in their system to understand, right
+    away. I\u2019d publish an article but it\u2019ll just get deleted. Would you
+    make me a tree which can effect everybody\u2019s emotions? Not just people who
+    look at it. With deep roots? It\u2019s the only way to show people what\u2019s
+    happening."
+  ConversationSuccess: This will do nicely, thank you.
+  ConversationFailure: Not quite right. Nevermind.
+  ConversationScam: I tell you I might be able to fix the world and you hack me?
+    Who does that?? Never speak to me again.
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 225111607}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &889470276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889470277}
+  - component: {fileID: 889470278}
+  m_Layer: 6
+  m_Name: Santa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889470277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889470276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &889470278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889470276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: S. Claus, an ordinary man
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245865814974853}
+  - {fileID: 28245865728952855}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hello there, I\u2019m an ordinary man with a normal job in\u2026
+    gifts. Yep, that\u2019s right, I work in the gift business. I\u2019m looking
+    for a very specific type of tree. It\u2019s gotta feel cold and have plenty of
+    space for presents underneath. The kind of tree you only see once a year. I need
+    it for \u2026 no reason."
+  ConversationSuccess: "Ho ho h- I mean, that\u2019s great! You\u2019ve been very
+    nice this year. I\u2026 I mean, you\u2019ve handled this transaction with professionalism
+    and competence."
+  ConversationFailure: "Well, it\u2019s not quite right for my needs, but it\u2019s
+    certainly a tree. You\u2019ll do better next time I\u2019m sure."
+  ConversationScam: "Oh, that is naughty behaviour if I\u2019ve ever seen it! No
+    gifts for you this year! I\u2019d give you coal but that\u2019s probably how
+    we got in this mess."
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 1732821317}
+  - {fileID: 1487950320}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &1176844952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176844953}
+  - component: {fileID: 1176844954}
+  m_Layer: 6
+  m_Name: Manasvi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176844953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176844952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176844954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176844952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Manasvi, a Mianaai functionary
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866645568639}
+  - {fileID: 28245867181646591}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hello there, I think you heard recently from my son, Pyotr?
+    He\u2019s got some\u2026 strange ideas about trees. He\u2019s not really made
+    for a world of computers, full of people talking nonsense one hundred miles an
+    hour. He\u2019s too trusting, and he needs someone to blame. I get it, I do -
+    the world doesn\u2019t make sense, and it certainly is someone\u2019s fault,
+    but it has nothing to do with upside down trees. Can you make me an, um, regular
+    tree? Colours right way up? I want to show it to him."
+  ConversationSuccess: "Ok, this is fantastic. I downloaded a book about trees and
+    I\u2019m going to use this to illustrate it. I also bought a book about the Mianaai
+    corporation. I think he needs to understand who\u2019s really to blame. Thank
+    you."
+  ConversationFailure: "Ah, I see. I\u2019m not sure I can use this to help Pyotr.
+    Thanks anyway."
+  ConversationScam: "My son may not be right about trees, but he sure was right about
+    one thing: you can\u2019t trust anyone in this world. You\u2019re all crooks!"
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 484734073}
+  - {fileID: 1786837819}
+  - {fileID: 821589319}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &1179199937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179199938}
+  - component: {fileID: 1179199939}
+  m_Layer: 6
+  m_Name: Krutika (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179199938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179199937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179199939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179199937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Krutika, a researcher
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866682945705}
+  - {fileID: 28245867383551603}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 200
+  BankAccount: 300
+  Trust: 4
+  Threat: 4
+  ConversationStart: "Hey, I fixed up the headset. This new tech should be able to
+    make the feelings items like your trees produce much more powerful. I need a
+    very nostalgic tree, if you can do it. If I nail this assignment, I\u2019ll kick
+    it up to my supervisor, Alex. She\u2019s pretty senior at Mianaai so should be
+    able to hook you up with some pretty cool clients."
+  ConversationSuccess: This is perfect, thanks.
+  ConversationFailure: "Not exactly right, if I\u2019m being honest."
+  ConversationScam: Umm, you hacked me? I thought we were working together on this?
+    My supervisor is definitely gonna hear about you now.
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 225111607}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &1487950318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487950319}
+  - component: {fileID: 1487950320}
+  m_Layer: 6
+  m_Name: Jenya
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487950319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487950318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487950320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487950318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Jenya, a lonely woman
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866707145353}
+  - {fileID: 28245865906887292}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hello darling. When I was young, my late husband and I used
+    to take long walks in the local arboretum. It was like a tree museum. It was
+    under a towering old oak tree that he first asked me to marry him. We used to
+    visit it every year on our anniversary. Of course, none of that\u2019s possible
+    now. He left me a little money when he passed, and I thought it was only right
+    that I purchase as close a copy of that tree as you can make. Would that be possible?
+    It would make me very happy. I\u2019d offer more, but this is all I have."
+  ConversationSuccess: "Well, you can see that I\u2019m crying. Don\u2019t worry,
+    it\u2019s a good cry. This is exactly how that old tree felt. You\u2019ve made
+    me very happy. Thank you."
+  ConversationFailure: "I think maybe my headset is a little old, or maybe it\u2019s
+    just different to my memory. It\u2019s not quite right. Oh well. Thank you, darling."
+  ConversationScam: "The tree you sent me had a virus in it. It\u2019s times like
+    this I miss my David the most. He would have set you straight, and got my money
+    back too. You are a cruel hearted person, I hope you know that. I never thought
+    I\u2019d say this, but I\u2019m glad you never got to see the old world. You
+    don\u2019t deserve it. Lord help me."
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 1732821317}
+  - {fileID: 889470278}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &1732821315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1732821316}
+  - component: {fileID: 1732821317}
+  m_Layer: 6
+  m_Name: Pyotr (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732821316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732821315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732821317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732821315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Pyotr, a single man
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866645568639}
+  - {fileID: 28245865869285815}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Psst, can you hear me? Listen close. This whole thing is all
+    wrong. People say the trees used to have green leaves on top, brown trunk on
+    bottom. But they also say trees got their energy from the sun. How does that
+    work? Something\u2019s up. They reversed the colours. I need to prove it. Make
+    me a tree - but like the real trees. It\u2019s gonna blow people\u2019s minds."
+  ConversationSuccess: "I knew you\u2019d get it, man. I mean damn, you\u2019re the
+    tree guy for Pete\u2019s sake! Of course you know! This is perfect."
+  ConversationFailure: "No, no, no! I knew you were part of it, you shill! You\u2019re
+    just like the rest of them, in the pocket of Big Tree."
+  ConversationScam: "You\u2026 hacked me? This is because I\u2019m too close to the
+    truth, isn\u2019t it? You fool, you\u2019ve only emboldened my search for the
+    truth. I will never be silenced!"
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 1176844954}
+  HasSucceeded: 0
+  HasFailed: 0
+--- !u!1 &1786837817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786837818}
+  - component: {fileID: 1786837819}
+  m_Layer: 6
+  m_Name: Pyotr (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786837818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786837817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 28245865772286634}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786837819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786837817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Pyotr, a single man
+  Wants:
+  - {fileID: 28245865692514828}
+  Look:
+  - {fileID: 28245866645568639}
+  - {fileID: 28245865869285815}
+  - {fileID: 28245865623107463}
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: Hey bud, I wanna apologise for what I said last time we spoke.
+    I was seriously off the planet. My analysis of the problems that we face as a
+    species was seriously off. I think I found comfort in a simple narrative because
+    it was easier to process than the truth - that the evil in this world is the
+    structural result of many individuals working in their class interests, not the
+    product of a fantastical conspiracy. I see the truth now. The only way we can
+    overcome these issues is through cooperation - ah who am I kidding, THEY FAKED
+    THE GRASS. Gimme the freaky tree again, I deleted the last one cos of books.
+  ConversationSuccess: Ah, it feels good to be back on my bullshit. All that structural
+    analysis was exhausting.
+  ConversationFailure: Nope, no, this is wrong. You have learned nothing.
+  ConversationScam: "What the heck is this? You hacked me? I\u2019m too close to
+    the truth, aren\u2019t I?"
+  Nationality: {fileID: 0}
+  Neighbours:
+  - {fileID: 821589319}
+  - {fileID: 484734073}
+  HasSucceeded: 0
+  HasFailed: 0
 --- !u!1 &28245865313641451
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +1082,7 @@ GameObject:
   - component: {fileID: 28245865499877379}
   - component: {fileID: 28245865499877376}
   m_Layer: 6
-  m_Name: NPC 3
+  m_Name: Krutika (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,27 +1115,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Player 3
+  Name: Krutika, a researcher
   Wants:
   - {fileID: 28245865692514828}
   Look:
-  - {fileID: 28245865531199430}
-  - {fileID: 28245866707145353}
+  - {fileID: 28245866682945705}
+  - {fileID: 28245867383551603}
   - {fileID: 28245865623107463}
-  - {fileID: 28245867430170653}
-  InfoCost: 0
-  NFCCost: 0
-  BankAccount: 400
-  Trust: 0
-  Threat: 10
-  ConversationStart: Hallo, my name is NPC 1
-  ConversationSuccess: kthxbai
-  ConversationFailure: boooooo
-  ConversationScam: wtf?!
+  InfoCost: 50
+  NFCCost: 200
+  BankAccount: 300
+  Trust: 4
+  Threat: 4
+  ConversationStart: "*crackle* Hello? Sorry I\u2019m *crackle* having some technical
+    issues\u2026 There we go! Sorry, I work at Mianaai Corp and I\u2019m testing
+    some new headset tech. It\u2019s not exactly working as designed. I\u2019m still
+    tweaking the neural link and visual sensors. Can you knock together a simple
+    tree to look at, feel and smell? It would be a real help."
+  ConversationSuccess: "Perfect, thanks. You\u2019re a lifesaver."
+  ConversationFailure: "This is a little high concept for me to be honest, which
+    is something I never thought I\u2019d say about a tree. Maybe next time.  "
+  ConversationScam: " Ok, great. You just made my day worse, which I didn\u2019t
+    think was possible. I hope you enjoyed that, asshole."
   Nationality: {fileID: 0}
   Neighbours:
-  - {fileID: 28245865703135563}
-  - {fileID: 28245866212275929}
+  - {fileID: 1179199939}
   HasSucceeded: 0
   HasFailed: 0
 --- !u!1 &28245865503500090
@@ -1649,11 +2470,10 @@ MonoBehaviour:
   Wants:
   - {fileID: 28245865551547484}
   Look:
-  - {fileID: 28245866775955405}
-  - {fileID: 28245867383551603}
+  - {fileID: 28245865869285815}
+  - {fileID: 28245866705476034}
   - {fileID: 28245865623107463}
-  - {fileID: 28245865562284828}
-  InfoCost: 50
+  InfoCost: 0
   NFCCost: 100
   BankAccount: 1000
   Trust: 1
@@ -1670,6 +2490,7 @@ MonoBehaviour:
   - {fileID: 28245866838694191}
   - {fileID: 28245865499877376}
   - {fileID: 28245865893617655}
+  - {fileID: 28245866212275929}
   HasSucceeded: 0
   HasFailed: 0
 --- !u!1 &28245865728952856
@@ -1913,6 +2734,17 @@ Transform:
   - {fileID: 28245865499877379}
   - {fileID: 28245865893617654}
   - {fileID: 28245866212275928}
+  - {fileID: 1179199938}
+  - {fileID: 472659084}
+  - {fileID: 148293321}
+  - {fileID: 1732821316}
+  - {fileID: 1487950319}
+  - {fileID: 889470277}
+  - {fileID: 1176844953}
+  - {fileID: 484734072}
+  - {fileID: 1786837818}
+  - {fileID: 821589318}
+  - {fileID: 225111606}
   m_Father: {fileID: 28245865784896242}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2275,7 +3107,7 @@ GameObject:
   - component: {fileID: 28245865893617654}
   - component: {fileID: 28245865893617655}
   m_Layer: 6
-  m_Name: NPC 4
+  m_Name: Bill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2308,25 +3140,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Player 4
+  Name: Bill, a retired scientist
   Wants:
   - {fileID: 28245865692514828}
   Look:
-  - {fileID: 28245865814974853}
+  - {fileID: 28245866800802302}
   - {fileID: 28245865623107463}
-  InfoCost: 0
-  NFCCost: 0
-  BankAccount: 400
-  Trust: 0
-  Threat: 10
-  ConversationStart: Hallo, my name is NPC 1
-  ConversationSuccess: kthxbai
-  ConversationFailure: boooooo
-  ConversationScam: wtf?!
+  - {fileID: 28245865582870442}
+  InfoCost: 50
+  NFCCost: 400
+  BankAccount: 1200
+  Trust: 6
+  Threat: 2
+  ConversationStart: "Hey there sport! Is that a Mianaai-80 neural headset you\u2019re
+    using there? I could tell! You might not believe me, but I made my money working
+    on the MNI-17 back in the day. Back then you could take the thing off, go for
+    a walk outside, buy some lunch and come back to work. Imagine! When everything
+    started breaking down, it was my old workmates who stepped in to save humanity.
+    They made the apartments we live in, the vitamin powder we eat, and of course
+    the headsets. We may pay them, but haven\u2019t they earned it? Make an old man
+    happy and make a tree like the ones I used to see in the park on my break. They
+    had big, thick trunks. Take me back there, if you can."
+  ConversationSuccess: "Good lord, this is perfect. I\u2019m sorry for crying. I\u2019m
+    sorry for everything."
+  ConversationFailure: "Ah, I suppose you younguns must have a little trouble remembering
+    trees. Perfectly understandable. Partly my fault, to be honest. We didn\u2019t
+    know what we were doing."
+  ConversationScam: "You shouldn\u2019t have done that, sport. You\u2019ve taken
+    advantage of a sad old man looking for a glimpse of his youth. I have tried so
+    hard not to become bitter. Goodbye."
   Nationality: {fileID: 0}
   Neighbours:
-  - {fileID: 28245865703135563}
-  - {fileID: 28245866212275929}
+  - {fileID: 472659085}
   HasSucceeded: 0
   HasFailed: 0
 --- !u!1 &28245865903131897
@@ -2844,8 +3689,19 @@ MonoBehaviour:
   - {fileID: 28245865499877376}
   - {fileID: 28245865893617655}
   - {fileID: 28245866212275929}
+  - {fileID: 1179199939}
+  - {fileID: 472659085}
+  - {fileID: 148293322}
+  - {fileID: 1732821317}
+  - {fileID: 1487950320}
+  - {fileID: 889470278}
+  - {fileID: 1176844954}
+  - {fileID: 484734073}
+  - {fileID: 1786837819}
+  - {fileID: 821589319}
+  - {fileID: 225111607}
   StartNPC: {fileID: 28245865703135563}
-  EndNPC: {fileID: 28245866212275929}
+  EndNPC: {fileID: 225111607}
 --- !u!1 &28245866208376326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,7 +3817,7 @@ GameObject:
   - component: {fileID: 28245866212275928}
   - component: {fileID: 28245866212275929}
   m_Layer: 6
-  m_Name: NPC 5
+  m_Name: Curtis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2994,23 +3850,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Player 5
+  Name: Curtis, a professional gadfly
   Wants:
   - {fileID: 28245865692514828}
   Look:
-  - {fileID: 28245866533748010}
+  - {fileID: 28245867132390695}
   - {fileID: 28245865623107463}
-  InfoCost: 0
+  - {fileID: 28245866560535397}
+  InfoCost: 50
   NFCCost: 0
-  BankAccount: 400
-  Trust: 0
-  Threat: 10
-  ConversationStart: Hallo, my name is NPC 1
-  ConversationSuccess: kthxbai
-  ConversationFailure: boooooo
-  ConversationScam: wtf?!
+  BankAccount: 750
+  Trust: 5
+  Threat: 8
+  ConversationStart: "I\u2019m having a party next week and I expect some big names
+    to be there. People from Mianaai Corp. Nowadays you\u2019re barely anyone without
+    a half decent tree to display. Do I look like I know types of trees? A cool tree
+    I guess? Brown leaves? Can you do that?"
+  ConversationSuccess: "My guests will love this! I\u2019ll tell everyone I got it
+    from you, of course. Keep my number."
+  ConversationFailure: "I learned a new word the other day, from the old world. The
+    word is \u2018autumnal\u2019. This tree is not autumnal in the slightest. The
+    leaves are all wrong. Lose my number."
+  ConversationScam: "Well, well, well. You think you\u2019re pretty smart, don\u2019t
+    you? I will make sure everyone hears about this, you sad little troll."
   Nationality: {fileID: 0}
-  Neighbours: []
+  Neighbours:
+  - {fileID: 148293322}
   HasSucceeded: 0
   HasFailed: 0
 --- !u!1 &28245866238032622
@@ -5057,7 +5922,7 @@ GameObject:
   - component: {fileID: 28245866838694190}
   - component: {fileID: 28245866838694191}
   m_Layer: 6
-  m_Name: NPC 2
+  m_Name: Lena (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5090,27 +5955,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7529f5d837911574a8191850f0a0600c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Player 2
+  Name: Lena, a journalist
   Wants:
   - {fileID: 28245865692514828}
   Look:
-  - {fileID: 28245865531199430}
-  - {fileID: 28245866800802302}
+  - {fileID: 28245865604781075}
+  - {fileID: 28245865922125457}
   - {fileID: 28245865623107463}
-  - {fileID: 28245867430170653}
-  InfoCost: 0
-  NFCCost: 0
-  BankAccount: 400
-  Trust: 0
-  Threat: 10
-  ConversationStart: Hallo, my name is NPC 1
-  ConversationSuccess: kthxbai
-  ConversationFailure: boooooo
-  ConversationScam: wtf?!
+  InfoCost: 50
+  NFCCost: 50
+  BankAccount: 100
+  Trust: 3
+  Threat: 3
+  ConversationStart: "Hi there. So usually I\u2019m a journalist, but right now I\u2019m
+    working on a book about the history of the old world. As I understand it, trees
+    used to have little seeds in them, that dropped down? I\u2019d really like to
+    see that up close. I think if I can understand that I might be able to work out
+    how we used to grow stuff. They say the soil\u2019s all bad now, but have you
+    ever tried? Have you ever seen it?"
+  ConversationSuccess: "Great, this is fantastic. I can work with this. I\u2019ll
+    let you know if I find anything interesting."
+  ConversationFailure: "Yeah, so this isn\u2019t really what I was looking for. Nevermind."
+  ConversationScam: "Oh, come on dude! You know what, the book can wait. I\u2019m
+    gonna write a piece about you, and the crap you just pulled!"
   Nationality: {fileID: 0}
   Neighbours:
-  - {fileID: 28245865703135563}
-  - {fileID: 28245866212275929}
+  - {fileID: 1732821317}
+  - {fileID: 1487950320}
+  - {fileID: 889470278}
   HasSucceeded: 0
   HasFailed: 0
 --- !u!1 &28245866894089652

@@ -117,6 +117,8 @@ public class MainPage : MonoBehaviour
 
     public void Continue()
     {
+        _marks[_currentPortraitPos].HasSucceeded = true;
+
         ShowCharacterSelect();
     }
 
